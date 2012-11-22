@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/lowercase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lowercase" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/uppercase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uppercase" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numbers" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/special"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/special" >
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/length_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/length_text" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </Spinner>
+
+        <Button
+            android:id="@+id/generate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/generateButton" >
+        </Button>
+
+        <EditText
+            android:id="@+id/generated_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/generated_password_hint" />
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/generated_howto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/generated_howto" />
+    </LinearLayout>
+
+</ScrollView>
